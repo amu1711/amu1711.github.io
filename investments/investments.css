@@ -1,0 +1,74 @@
+.realestate-investment{
+    background-color: #e3e3df;
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 60px;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+.investments .box {
+    width: 480px;
+    height: 566px;
+    padding: 20px;
+    background-color: #ee4c7c;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+
+.investments h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: all linear 0.10s;
+}
+
+.investments h5 span,
+.investments h5{
+    text-align: center;
+    padding: 10px;
+     transition: all linear 0.10s;
+}
+.investments h4:hover,
+.investments span:hover,
+.investments h5:hover
+{
+    color:#fff;
+}
+
+.investments ul li {
+    list-style: none;
+}
+
+.btn-sucess {
+    position: relative;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 165px;
+    text-transform: uppercase;
+    transition: all linear 0.10s;
+
+}
+.btn-sucess:hover{
+    background-color: #212226;
+    color: #fff;
+}
+
+.collapse {
+    width: 100%;
+    background-color: 212226;
+    color: #fff;
+    transition: all linear 0.9s;
+}
+
+.collapse:hover {
+    background-color: gray;
+}
+
+.collapse ul li {
+    list-style: none;
+}

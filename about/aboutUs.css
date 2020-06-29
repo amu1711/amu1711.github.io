@@ -1,0 +1,91 @@
+.personal-blog{
+    background-color: #8ee4af;
+}
+
+.Aboutme{
+    padding: 50px;
+}
+.container img{
+    padding: 20px;
+}
+.personaInfo{
+    padding: 20px 10px 40px 50px;
+}
+
+.personaInfo h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    transition: all linear 0.5s;   
+}
+.personaInfo p{
+    padding: 0px 0px 0px 10px;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: all linear 0.10s; 
+}
+.list{
+    padding: 20px;
+    
+}
+.list .definition{
+    list-style: none;
+}
+.list .definition h4{
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    
+}
+.summary{
+    padding: 10px;
+    
+}
+.summary h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    transition: all linear 0.5s;
+}
+.personaInfo h4:hover,
+h3:hover,
+.list .definition h4:hover,
+.summary h4:hover{
+    color: #05386b;
+}
+.src{
+    padding: 50px;
+    text-align: center;
+}
+.src .button{
+  position: relative;
+  background-color: black;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.src .button:hover{
+    background-color: blue;
+    color: crimson;
+}
+.src .button:hover span{
+    padding-right:-20px;
+}
+
+ 
+}
+
+

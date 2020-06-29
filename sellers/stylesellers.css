@@ -1,0 +1,104 @@
+.realestate-selling-method{
+    background-color:#212226;
+}
+.sellersInfo {
+    padding: 50px;
+}
+
+.vertical-heading {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    top: 130px;
+    left: -180px;
+    color:#fff;
+}
+
+.vertical-heading:hover {
+    color: crimson;
+}
+#selling-process{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 60px;
+    color:#fff;
+}
+#selling-process h2:hover{
+    color:crimson;
+}
+    
+.home-selling-img1 {
+    height: 400px;
+    width: 480px;
+    padding: 10px;
+    margin-top: -40px;
+    transition: 1s linear;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#para1 {
+    margin-left: 200px;
+    margin-top: 20px;
+    color: #fff;
+    padding: 20px;
+}
+#para1 h4,
+#para2 h4,
+#para3 h4{
+    text-transform: uppercase;
+    color: #fc4445;
+}
+#para1 ul li,
+#para2 ul li,
+#para3 ul li
+{
+    list-style: none;
+}
+#para1  strong,
+#para2 strong,
+#para3 strong{
+    color:#fc4445;
+
+}
+
+.home-selling-img2 {
+    height: 400px;
+    width: 480px;
+    margin-top: -100px;
+    margin-left: -20px;
+    transition: 1s linear;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#para2 {
+    margin-top: -50px;
+    margin-left: -70px;
+    color: #fff;
+}
+
+.home-selling-img3 {
+    height: 400px;
+    width: 480px;
+    margin-top: -80px;
+    transition: 1s linear;
+    overflow: hidden;
+    object-fit: contain;
+
+}
+
+#para3 {
+    margin-left: 150px;
+    color: #fff;
+}
+
+.para ul.hideContent {
+    display: none;
+}

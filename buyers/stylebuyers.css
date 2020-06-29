@@ -1,0 +1,118 @@
+body {
+     padding: 0;
+    margin: 0;
+}
+.realestate-buying-method{
+    padding: 20px;
+    background-color: #99738e;
+}
+#buying-process{
+    padding-top:160px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all linear .5s;
+    overflow: hidden;
+}
+#buying-process h2:hover{
+    color:#2f2fa2;
+}
+#services-tabs{
+    margin-top: 30px;
+
+}
+
+#services-tabs ul {
+    margin-bottom: 40px;
+}
+
+#services-tabs ul li {
+    padding: 5px 30px;
+}
+
+
+#services-tabs ul {
+    list-style: none;
+}
+
+#services-tabs ul li a {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+
+#services-tabs ul li.r-tabs-state-active a {
+    color: #2f2fa2;
+    font-weight: 700;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+}
+
+#services-tabs h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#services-tabs h4 {
+    text-transform: capitalize;
+}
+
+#services-tabs h3:hover,
+#services-tabs h4:hover,
+#services-tabs .btn:hover {
+    color: #fff;
+}
+
+#services-tabs:hover h3,
+#services-tabs:hover h4 {
+    transition: all 400ms linear;
+    transform: translatex(20px);
+}
+.accordion{
+    background-color: #2f2fa2;
+    padding: 30px;
+}
+
+.accordion dt,
+.accordion dd {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.accordion dt a {
+    color: #212226;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s linear;
+    display: block;
+    font-weight: bold;
+
+}
+
+.accordion dt a.active,
+.accordion dt a:hover {
+    color: #f64c72 ;
+}
+
+.accordion dt {
+    background-color: #99738e;
+}
+
+.accordion dd {
+    margin: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.accordion dd:last-of-type {
+    border-bottom-width: 1px;
+}
