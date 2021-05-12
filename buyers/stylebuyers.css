@@ -4,7 +4,8 @@ body {
 }
 .realestate-buying-method{
     padding: 20px;
-    background-color: #99738e;
+    background-color: #222;
+    color: #fff;
 }
 #buying-process{
     padding-top:160px;
@@ -18,6 +19,7 @@ body {
 }
 #services-tabs{
     margin-top: 30px;
+    color: #fff;
 
 }
 
@@ -37,7 +39,7 @@ body {
 #services-tabs ul li a {
     font-family: "Raleway", sans-serif;
     font-size: 13px;
-    color: black;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 400;
     padding: 0;
@@ -47,7 +49,7 @@ body {
 #services-tabs ul li.r-tabs-state-active a {
     color: #2f2fa2;
     font-weight: 700;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #2f2fa2;
     padding-bottom: 5px;
     -webkit-transition: border-color 300ms linear;
     transition: border-color 300ms linear;
