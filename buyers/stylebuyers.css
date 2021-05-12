@@ -63,6 +63,9 @@ body {
 #services-tabs h4 {
     text-transform: capitalize;
 }
+#services-tabs .btn{
+    color: crimson;
+}
 
 #services-tabs h3:hover,
 #services-tabs h4:hover,
